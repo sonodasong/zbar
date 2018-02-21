@@ -1,0 +1,3 @@
+Debug neon_hard/
+Debug vfpv3_hard/
+/makefile.init

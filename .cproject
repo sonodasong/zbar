@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081" moduleId="org.eclipse.cdt.core.settings" name="Debug neon_hard">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.renesas.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.renesas.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf *.lst *.lis *.lpp *.map" description="" id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081" name="Debug neon_hard" parent="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id">
+					<folderInfo id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.library.rz.debug.win32.toolchain.Id.12598243" name="KPIT GNUARM-NONE-EABI Toolchain" superClass="com.renesas.cdt.library.rz.debug.win32.toolchain.Id">
+							<targetPlatform archList="all" id="com.renesas.cdt.rz.libraryProject.debug.win32.targetplatform.Id.2022294402" name="Target Platform" osList="win32,linux" superClass="com.renesas.cdt.rz.libraryProject.debug.win32.targetplatform.Id"/>
+							<builder buildPath="${workspace_loc:/zbar}/Debug" id="com.renesas.cdt.rz.library.project.debug.win32.builder.Id.787664243" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.renesas.cdt.rz.library.project.debug.win32.builder.Id"/>
+							<tool id="com.renesas.cdt.rz.libraryProject.debug.win32.tool.compiler.Id.800174354" name="Compiler" superClass="com.renesas.cdt.rz.libraryProject.debug.win32.tool.compiler.Id">
+								<option defaultValue="true" id="com.renesas.cdt.core.Compiler.option.misc2.1918104051" name="Don't search standard system directories for header files(-nostdinc)" superClass="com.renesas.cdt.core.Compiler.option.misc2" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.dataEndian.1469399842" name="Endian" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.dataEndian" value="Little-endian" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.instructionset.809097288" name="Instruction Set" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.instructionset" value="ARM" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.targetfpu.392416292" name="Target FPU (-mfpu)" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.targetfpu" value="com.renesas.cdt.rz.Debug.Compiler.option.targetfpu.library.neon" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.floatingpointabi.659591345" name="Floating-point ABI (-mfloat-abi=name)" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.floatingpointabi" value="com.renesas.cdt.rz.Debug.Compiler.option.floatingpointabi.library.hard" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.architecture.966629232" name="Architecture" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.architecture" value="com.renesas.cdt.rz.Debug.Compiler.option.architecture.library.arm7a" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.cpuType.657568941" name="CPU type" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.cpuType" value="cortex-a9" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.core.Compiler.option.includeFileDir.425650462" name="Include file directories" superClass="com.renesas.cdt.core.Compiler.option.includeFileDir" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cmsis_rtx/src/rtx/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bsp/src/RenesasBSP/drv_inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/zbar}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/zbar/decoder}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/zbar/qrcode}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.core.Compiler.option.CPUSeries.422796085" name="Cpu Series" superClass="com.renesas.cdt.core.Compiler.option.CPUSeries" value="RZ/A" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.rz.Debug.Compiler.option.library.macroDefines.259011063" name="Macro Defines" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.macroDefines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPPAPP"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT"/>
+								</option>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.interworking.1297888409" name="Interworking" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.interworking" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.optimizationLevel.1021183758" name="Optimization Level" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.optimizationLevel" value="com.renesas.cdt.rz.Debug.Compiler.option.optimizationLevel.library.codeSize" valueType="enumerated"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc25.1440358820" name="Don't put function addresses in registers(-fno-function-cse)" superClass="com.renesas.cdt.core.Compiler.option.misc25" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc56.1806659506" name="Parse the whole compilation unit before starting to produce code ( -funit-at-a-time)" superClass="com.renesas.cdt.core.Compiler.option.misc56" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc53.1846886635" name="Place each data item into its own section in the output file(-fdata-sections)" superClass="com.renesas.cdt.core.Compiler.option.misc53" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc19.1465574247" name="Place each function into its own section in the output file(-ffunction-sections)" superClass="com.renesas.cdt.core.Compiler.option.misc19" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc57.1237564976" name="Align branch targets to a power-of-two boundary (-falign-jumps)" superClass="com.renesas.cdt.core.Compiler.option.misc57" value="true" valueType="boolean"/>
+								<inputType id="%Base.Compiler.C.InputType.Id.199947256" name="C Input" superClass="%Base.Compiler.C.InputType.Id"/>
+								<inputType id="Base.Compiler.CPP.InputType.Id.1340064726" name="C++ Input" superClass="Base.Compiler.CPP.InputType.Id"/>
+							</tool>
+							<tool id="com.renesas.cdt.library.rz.Debug.win32.tool.assembler.Id.1755050691" name="Assembler" superClass="com.renesas.cdt.library.rz.Debug.win32.tool.assembler.Id">
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.dataEndian.1580826870" name="Endian" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.dataEndian" value="Little-endian" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.instructionset.807973866" name="Instruction Set" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.instructionset" value="ARM" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.targetfpu.293256970" name="Target FPU (-mfpu)" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.targetfpu" value="neon" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.floatingpointabi.26337023" name="Floating-point ABI (-mfloat-abi=name)" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.floatingpointabi" value="Hard" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.architecture.1241151194" name="Architecture" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.architecture" value="com.renesas.cdt.rz.Debug.Compiler.option.architecture.library.arm7a" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.cpuType.1393248819" name="CPU type" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.cpuType" value="com.renesas.cdt.rz.Debug.Compiler.option.cpuType.library.rza" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.renesas.cdt.core.Assembler.option.includeFileDirectories.688445097" name="Include file directories" superClass="com.renesas.cdt.core.Assembler.option.includeFileDirectories" valueType="includePath"/>
+								<inputType id="%Base.Assembler.inputType.Id.301898719" name="Assembler InputType" superClass="%Base.Assembler.inputType.Id"/>
+							</tool>
+							<tool id="com.renesas.cdt.library.rz.debug.win32.tool.archive.Id.908975495" name="Archive Generator" superClass="com.renesas.cdt.library.rz.debug.win32.tool.archive.Id"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081.1192283824">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081.1192283824" moduleId="org.eclipse.cdt.core.settings" name="Debug vfpv3_hard">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.renesas.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.renesas.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf *.lst *.lis *.lpp *.map" description="" id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081.1192283824" name="Debug vfpv3_hard" parent="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id">
+					<folderInfo id="com.renesas.cdt.rz.libraryProject.base.debug.configuration.Id.1832993081.1192283824." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.library.rz.debug.win32.toolchain.Id.529079921" name="KPIT GNUARM-NONE-EABI Toolchain" superClass="com.renesas.cdt.library.rz.debug.win32.toolchain.Id">
+							<targetPlatform archList="all" id="com.renesas.cdt.rz.libraryProject.debug.win32.targetplatform.Id.854437540" name="Target Platform" osList="win32,linux" superClass="com.renesas.cdt.rz.libraryProject.debug.win32.targetplatform.Id"/>
+							<builder buildPath="${workspace_loc:/zbar}/Debug" id="com.renesas.cdt.rz.library.project.debug.win32.builder.Id.632433523" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.renesas.cdt.rz.library.project.debug.win32.builder.Id"/>
+							<tool id="com.renesas.cdt.rz.libraryProject.debug.win32.tool.compiler.Id.78396585" name="Compiler" superClass="com.renesas.cdt.rz.libraryProject.debug.win32.tool.compiler.Id">
+								<option defaultValue="true" id="com.renesas.cdt.core.Compiler.option.misc2.1244879738" name="Don't search standard system directories for header files(-nostdinc)" superClass="com.renesas.cdt.core.Compiler.option.misc2" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.dataEndian.972332071" name="Endian" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.dataEndian" value="Little-endian" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.instructionset.1174329889" name="Instruction Set" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.instructionset" value="ARM" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.targetfpu.1740739318" name="Target FPU (-mfpu)" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.targetfpu" value="com.renesas.cdt.rz.Debug.Compiler.option.targetfpu.library.vfpv3" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.floatingpointabi.1271907958" name="Floating-point ABI (-mfloat-abi=name)" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.floatingpointabi" value="com.renesas.cdt.rz.Debug.Compiler.option.floatingpointabi.library.hard" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.architecture.463806231" name="Architecture" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.architecture" value="com.renesas.cdt.rz.Debug.Compiler.option.architecture.library.arm7a" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.cpuType.1234181232" name="CPU type" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.cpuType" value="cortex-a9" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.core.Compiler.option.includeFileDir.760300486" name="Include file directories" superClass="com.renesas.cdt.core.Compiler.option.includeFileDir" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/cmsis_rtx/src/rtx/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bsp/src/RenesasBSP/drv_inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/zbar}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/zbar/decoder}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/zbar/qrcode}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.core.Compiler.option.CPUSeries.735438795" name="Cpu Series" superClass="com.renesas.cdt.core.Compiler.option.CPUSeries" value="RZ/A" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.rz.Debug.Compiler.option.library.macroDefines.1950127536" name="Macro Defines" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.macroDefines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="CPPAPP"/>
+									<listOptionValue builtIn="false" value="__FPU_PRESENT"/>
+								</option>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.interworking.56312622" name="Interworking" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.interworking" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.rz.Debug.Compiler.option.library.optimizationLevel.62798862" name="Optimization Level" superClass="com.renesas.cdt.rz.Debug.Compiler.option.library.optimizationLevel" value="com.renesas.cdt.rz.Debug.Compiler.option.optimizationLevel.library.codeSize" valueType="enumerated"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc25.504278941" name="Don't put function addresses in registers(-fno-function-cse)" superClass="com.renesas.cdt.core.Compiler.option.misc25" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc56.226279106" name="Parse the whole compilation unit before starting to produce code ( -funit-at-a-time)" superClass="com.renesas.cdt.core.Compiler.option.misc56" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc53.1350996647" name="Place each data item into its own section in the output file(-fdata-sections)" superClass="com.renesas.cdt.core.Compiler.option.misc53" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc19.570382872" name="Place each function into its own section in the output file(-ffunction-sections)" superClass="com.renesas.cdt.core.Compiler.option.misc19" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.core.Compiler.option.misc57.2046919279" name="Align branch targets to a power-of-two boundary (-falign-jumps)" superClass="com.renesas.cdt.core.Compiler.option.misc57" value="true" valueType="boolean"/>
+								<inputType id="%Base.Compiler.C.InputType.Id.180684527" name="C Input" superClass="%Base.Compiler.C.InputType.Id"/>
+								<inputType id="Base.Compiler.CPP.InputType.Id.916661503" name="C++ Input" superClass="Base.Compiler.CPP.InputType.Id"/>
+							</tool>
+							<tool id="com.renesas.cdt.library.rz.Debug.win32.tool.assembler.Id.263695926" name="Assembler" superClass="com.renesas.cdt.library.rz.Debug.win32.tool.assembler.Id">
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.dataEndian.741987873" name="Endian" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.dataEndian" value="Little-endian" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.instructionset.403936831" name="Instruction Set" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.instructionset" value="ARM" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.targetfpu.942393905" name="Target FPU (-mfpu)" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.targetfpu" value="vfpv3" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.floatingpointabi.1260882653" name="Floating-point ABI (-mfloat-abi=name)" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.floatingpointabi" value="Hard" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.architecture.1617633123" name="Architecture" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.architecture" value="com.renesas.cdt.rz.Debug.Compiler.option.architecture.library.arm7a" valueType="enumerated"/>
+								<option id="com.renesas.cdt.rz.Debug.Assembler.option.library.cpuType.1785161019" name="CPU type" superClass="com.renesas.cdt.rz.Debug.Assembler.option.library.cpuType" value="com.renesas.cdt.rz.Debug.Compiler.option.cpuType.library.rza" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.renesas.cdt.core.Assembler.option.includeFileDirectories.40292669" name="Include file directories" superClass="com.renesas.cdt.core.Assembler.option.includeFileDirectories" valueType="includePath"/>
+								<inputType id="%Base.Assembler.inputType.Id.1937282656" name="Assembler InputType" superClass="%Base.Assembler.inputType.Id"/>
+							</tool>
+							<tool id="com.renesas.cdt.library.rz.debug.win32.tool.archive.Id.948796044" name="Archive Generator" superClass="com.renesas.cdt.library.rz.debug.win32.tool.archive.Id"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="zbar.com.renesas.cdt.rz.library.projectType.Id.501155571" name="Static Library (Renesas)" projectType="com.renesas.cdt.rz.library.projectType.Id"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>

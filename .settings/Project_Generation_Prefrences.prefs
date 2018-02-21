@@ -1,0 +1,14 @@
+com.renesas.cdt.core.Assembler.option.includeFileDirectories="${workspace_loc\:/${ProjName}}/src";
+com.renesas.cdt.core.Compiler.option.CPUSeries=RZ/A
+com.renesas.cdt.core.Compiler.option.warnStackSize=
+com.renesas.cdt.rz.Debug.Assembler.option.library.architecture=armv7-a
+com.renesas.cdt.rz.Debug.Assembler.option.library.cpuType=cortex-a9
+com.renesas.cdt.rz.Debug.Compiler.option.library.architecture=armv7-a
+com.renesas.cdt.rz.Debug.Compiler.option.library.cpuType=cortex-a9
+com.renesas.cdt.rz.Debug.Compiler.option.library.dataEndian=Little-endian
+com.renesas.cdt.rz.Debug.Compiler.option.library.floatingpointabi=Soft
+com.renesas.cdt.rz.Debug.Compiler.option.library.instructionset=ARM
+com.renesas.cdt.rz.Debug.Compiler.option.library.interworking=true
+com.renesas.cdt.rz.Debug.Compiler.option.library.macroDefines=CPPAPP;
+com.renesas.cdt.rz.Debug.Compiler.option.library.targetfpu=vfpv3-d16
+eclipse.preferences.version=1
